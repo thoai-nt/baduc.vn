@@ -1,0 +1,12 @@
+[28-Nov-2022 23:13:53 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17
+[30-Nov-2022 13:10:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17
+[25-Jan-2023 22:14:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17

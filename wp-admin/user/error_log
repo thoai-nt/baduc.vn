@@ -1,0 +1,12 @@
+[28-Nov-2022 23:08:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/baducvna/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-admin/user/menu.php on line 10
+[30-Nov-2022 13:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/baducvna/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-admin/user/menu.php on line 10
+[25-Jan-2023 22:14:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/baducvna/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/baducvna/public_html/wp-admin/user/menu.php on line 10

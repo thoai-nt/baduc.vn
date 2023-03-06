@@ -1,0 +1,747 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:29:56
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.31                                |7.2.31
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2020-07-03 17:45:38
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 10.1.34
+DB TABLES___________: 76
+DB ROWS_____________: 5,206
+DB FILE SIZE________: 9.23MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.31 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.18.0
+DOC ROOT____________: "/vietec/domains/thoaidev.xyz/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://baduc.vn/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/vietec/domains/thoaidev.xyz/public_html/20200609_lecongthanh_[HASH]_20200703174538_archive.zip"
+SIZE________________: 118.25MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/vietec/domains/thoaidev.xyz/public_html/20200609_lecongthanh_[HASH]_20200703174538_archive.zip"
+SIZE________________: 118.25MBFile timestamp set to Current: 2020-07-03 18:30:11
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 06:30:28 - RUNTIME: 31.8568 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:32:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.48 -- Build Server: 10.1.34
+FILE SIZE:	dup-database__[HASH].sql (4.36MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/vietec/domains/thoaidev.xyz/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.48] is less than the build version [10.1.34].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	73
+RENAMED TABLES:	0
+QUERIES RAN:	646
+
+thanhlc_actionscheduler_actions: (1)
+thanhlc_actionscheduler_claims: (0)
+thanhlc_actionscheduler_groups: (1)
+thanhlc_actionscheduler_logs: (3)
+thanhlc_commentmeta: (0)
+thanhlc_comments: (1)
+thanhlc_duplicator_packages: (0)
+thanhlc_give_commentmeta: (0)
+thanhlc_give_comments: (0)
+thanhlc_give_donationmeta: (0)
+thanhlc_give_donormeta: (0)
+thanhlc_give_donors: (0)
+thanhlc_give_formmeta: (0)
+thanhlc_give_logmeta: (0)
+thanhlc_give_logs: (0)
+thanhlc_give_sequential_ordering: (0)
+thanhlc_give_sessions: (0)
+thanhlc_layerslider: (0)
+thanhlc_layerslider_revisions: (0)
+thanhlc_links: (0)
+thanhlc_mec_dates: (1300)
+thanhlc_mec_events: (5)
+thanhlc_mphb_sync_logs: (0)
+thanhlc_mphb_sync_queue: (0)
+thanhlc_mphb_sync_stats: (0)
+thanhlc_mphb_sync_urls: (0)
+thanhlc_options: (458)
+thanhlc_postmeta: (3259)
+thanhlc_posts: (191)
+thanhlc_revslider_css: (109)
+thanhlc_revslider_css_bkp: (47)
+thanhlc_revslider_layer_animations: (0)
+thanhlc_revslider_layer_animations_bkp: (0)
+thanhlc_revslider_navigations: (0)
+thanhlc_revslider_navigations_bkp: (0)
+thanhlc_revslider_sliders: (0)
+thanhlc_revslider_sliders_bkp: (0)
+thanhlc_revslider_slides: (0)
+thanhlc_revslider_slides_bkp: (0)
+thanhlc_revslider_static_slides: (0)
+thanhlc_revslider_static_slides_bkp: (0)
+thanhlc_term_relationships: (113)
+thanhlc_term_taxonomy: (35)
+thanhlc_termmeta: (0)
+thanhlc_terms: (35)
+thanhlc_tinvwl_analytics: (0)
+thanhlc_tinvwl_items: (0)
+thanhlc_tinvwl_lists: (1)
+thanhlc_usermeta: (40)
+thanhlc_users: (2)
+thanhlc_wc_admin_note_actions: (6)
+thanhlc_wc_admin_notes: (5)
+thanhlc_wc_category_lookup: (1)
+thanhlc_wc_customer_lookup: (0)
+thanhlc_wc_download_log: (0)
+thanhlc_wc_order_coupon_lookup: (0)
+thanhlc_wc_order_product_lookup: (0)
+thanhlc_wc_order_stats: (0)
+thanhlc_wc_order_tax_lookup: (0)
+thanhlc_wc_product_meta_lookup: (0)
+thanhlc_wc_tax_rate_classes: (2)
+thanhlc_wc_webhooks: (0)
+thanhlc_woocommerce_api_keys: (0)
+thanhlc_woocommerce_attribute_taxonomies: (0)
+thanhlc_woocommerce_downloadable_product_permissions: (0)
+thanhlc_woocommerce_log: (0)
+thanhlc_woocommerce_order_itemmeta: (0)
+thanhlc_woocommerce_order_items: (0)
+thanhlc_woocommerce_payment_tokenmeta: (0)
+thanhlc_woocommerce_payment_tokens: (0)
+thanhlc_woocommerce_sessions: (1)
+thanhlc_woocommerce_shipping_zone_locations: (0)
+thanhlc_woocommerce_shipping_zone_methods: (0)
+thanhlc_woocommerce_shipping_zones: (0)
+thanhlc_woocommerce_tax_rate_locations: (0)
+thanhlc_woocommerce_tax_rates: (0)
+Removed '56' cache/transient rows
+
+INSERT DATA RUNTIME: 82.7004 sec.
+STEP-2 COMPLETE @ 06:33:39 - RUNTIME: 82.7243 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:35:08
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "BA DUC TRANS CO., LTD"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/thanhlc"
+path_new______________: "/vietec/domains/thoaidev.xyz/public_html"
+siteurl_______________: "http://baduc.vn"
+url_old_______________: "http://localhost/thanhlc"
+url_new_______________: "http://baduc.vn"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "thanhlc_actionscheduler_actions"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_actionscheduler_claims"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_actionscheduler_groups"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_actionscheduler_logs"____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_commentmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_comments"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_duplicator_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_commentmeta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_comments"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_donationmeta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_donormeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_donors"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_formmeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_logmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_sequential_ordering"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_give_sessions"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_layerslider"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_layerslider_revisions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_links"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_mec_dates"_______________________________[ROWS:  1300][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_mec_events"______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_mphb_sync_logs"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_mphb_sync_queue"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_mphb_sync_stats"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_mphb_sync_urls"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_options"_________________________________[ROWS:   458][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_postmeta"________________________________[ROWS:  3259][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_posts"___________________________________[ROWS:   191][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_revslider_css"___________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_revslider_css_bkp"_______________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_revslider_layer_animations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_layer_animations_bkp"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_navigations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_navigations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_sliders"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_sliders_bkp"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_slides"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_slides_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_static_slides"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_revslider_static_slides_bkp"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_term_relationships"______________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_term_taxonomy"___________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_termmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_terms"___________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_tinvwl_analytics"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_tinvwl_items"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_tinvwl_lists"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_usermeta"________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_users"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_wc_admin_note_actions"___________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_wc_admin_notes"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_wc_category_lookup"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_wc_customer_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_download_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_order_coupon_lookup"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_order_product_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_order_stats"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_order_tax_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_product_meta_lookup"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_wc_tax_rate_classes"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_wc_webhooks"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_api_keys"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_attribute_taxonomies"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_order_itemmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_order_items"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_payment_tokenmeta"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_payment_tokens"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_sessions"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\thanhlc" =========================> "/vietec/domains/thoaidev.xyz/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\thanhlc" ======================> "\/vietec\/domains\/thoaidev.xyz\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cthanhlc" =================> "%2Fvietec%2Fdomains%2Fthoaidev.xyz%2Fpublic_html"
+	SEARCH  7:"//localhost/thanhlc" =============================> "//baduc.vn"
+	SEARCH  8:"\/\/localhost\/thanhlc" ==========================> "\/\/baduc.vn"
+	SEARCH  9:"%2F%2Flocalhost%2Fthanhlc" =======================> "%2F%2Fbaduc.vn"
+	SEARCH 10:"https://baduc.vn" ================================> "http://baduc.vn"
+	SEARCH 11:"https:\/\/baduc.vn" ==============================> "http:\/\/baduc.vn"
+	SEARCH 12:"https%3A%2F%2Fbaduc.vn" ==========================> "http%3A%2F%2Fbaduc.vn"
+
+EVALUATE TABLE: "thanhlc_woocommerce_shipping_zone_locations"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_shipping_zone_methods"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_shipping_zones"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_tax_rate_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "thanhlc_woocommerce_tax_rates"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:76 	|	 Rows:5616 	|	 Cells:29117 
+UPDATED:	Tables:5 	|	 Rows:161 	|	 Cells:165 
+ERRORS:		0 
+RUNTIME:	1.204400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""thoaidev_xyz""
+	UPDATE DB_USER ""thoaidev_xyz""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""103.28.37.52""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:35:09 - RUNTIME: 1.7485 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
